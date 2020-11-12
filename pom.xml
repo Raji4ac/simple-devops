@@ -89,5 +89,4 @@ along with Simple JSP Upload.  If not, see http://www.gnu.org/licenses/
         <url>http://35.221.34.111:8082/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
-  </distributionManagement>
-</project>
+  </project>
