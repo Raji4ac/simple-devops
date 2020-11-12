@@ -19,16 +19,16 @@ along with Simple JSP Upload.  If not, see http://www.gnu.org/licenses/
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>net.twonky.java.jsp</groupId>
-  <artifactId>simple-jsp-upload</artifactId>
+  <groupId>raji.com</groupId>
+  <artifactId>simple-devops-project</artifactId>
   <packaging>war</packaging>
   <version>1.2-SNAPSHOT</version>
-  <name>Simple JSP Upload</name>
-  <url>http://github.com/soren/Simple-JSP-Upload/</url>
+  <name>Simple Devops Project</name>
+  <url>https://github.com/Raji4ac/simple-devops.git</url>
 
   <scm>
-    <connection>scm:git:http://github.com/soren/Simple-JSP-Upload/tree/master</connection>
-    <developerConnection>scm:git:http://github.com/soren/Simple-JSP-Upload/tree/master</developerConnection>
+    <connection>scm:git:https://github.com/Raji4ac/simple-devops.git/tree/master</connection>
+    <developerConnection>scm:git:http://https://github.com/Raji4ac/simple-devops.git/tree/master</developerConnection>
   </scm>
 
   <dependencies>
@@ -50,7 +50,7 @@ along with Simple JSP Upload.  If not, see http://www.gnu.org/licenses/
     </dependency>
   </dependencies>
   <build>
-    <finalName>simple-jsp-upload</finalName>
+    <finalName>simple-devops</finalName>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
