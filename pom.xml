@@ -79,14 +79,15 @@ along with Simple JSP Upload.  If not, see http://www.gnu.org/licenses/
   </build>
   <distributionManagement>
     <repository>
-         <id>release</id>
-         <name>MyCo Internal Repository</name>
-         <url>http://Nexus url</url>
+        <id>central</id>
+        <name>plugins-releases</name>
+        <url>http://35.221.34.111:8082/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-         <id>deployment</id>
-         <name>Snapshots</name>
-         <url>http://35.221.34.111:8082/repository/maven-snapshots/</url>
+        <id>snapshots</id>
+        <name>plugins-snapshot</name>
+        <url>http://35.221.34.111:8082/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
+  </distributionManagement>
 </project>
